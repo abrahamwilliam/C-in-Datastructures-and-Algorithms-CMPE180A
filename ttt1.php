@@ -1,0 +1,1 @@
+ <?php $rand=mt_rand(1,2); switch($rand){ case 1: echo '<img src=News.jpg border=1px solid red width=200px height=200px/><p>This is Logo1</p>'; break; case 2: echo '<img src=/images/p6.jpg border=1px solid red width=200px height=200px/><p>This is Logo2***********</p>'; break; } ?>

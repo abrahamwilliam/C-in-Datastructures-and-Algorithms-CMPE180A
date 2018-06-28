@@ -1,0 +1,84 @@
+Assignment 1 : Chapter 2 page 95
+--2.12
+--2.13
+--2.15
+--2.18
+--2.21
+Due: 9/3/2015
+
+
+Homework #2
+
+Exercise
+3.2 (page 149)
+3.9 (Page 151)
+3.12 (Page 152)
+3.13
+3.17 (Page 153)
+Due 9/10/2015
+
+Homework #3 (Page 192)
+4.6
+4.7
+4.8
+4.11
+4.12
+
+Homework #4 (page 243)
+5.6
+5.7
+5.10
+5.11 (page 244)
+5.13 (Page 244)
+
+Due: 9/17/2015
+
+
+Due: 9/15/2015
+4.12
+a. Given:  a multithreaded program that calculates various statistical values for a list of numbers. This program will be passed a series of numbers on the command line and will then create three separate worker threads. One thread will determine the average of the numbers, the second will determine the maximum value, and the third will determine the minimum value. 
+Since there are 3 threads performing three different operations (average, findmin, findmax)
+This threading program is an example of Task Parallelism.
+
+b. A Sudoku Program to check 1-9 numbers across a 9X9 matrix both horizontally, vertically as well each subset of 3X3 matrix so that there are no numbers are repeating.
+This Threading program is an example of Data Parallelism as well as Task Parallelism.
+Data Parallelism as different subset of data is shared across a thread which performs the same function of checking whether all numbers are unique.
+Task Parallelism as each thread performs a unique operation, A thread for checking numbers in a given column, threads to check numbers in a given 3X3 subset of matrix.
+
+c. Given:  A list of integers is divided into two smaller lists of equal size. Two separate threads (which we will term sorting threads) sort each sub list using a sorting algorithm of your choice. The two sub lists are then merged by a third thread—a merging thread which merges the two sub lists into a single sorted list.
+Since a subset of same data is shared across each thread and same operation is performed, this Project is an example of Data Parallelism.
+
+d. The Web Server is an example of Task Parallelism as each thread is doing a unique operation. For example: one thread displaying images, one displaying videos. So on.
+
+
+
+Homework #5
+6.16 (30 points) (Page 308)
+6.17 (30 points) (Page 308/309)
+6. 19 (10 points) (Page 309)
+6.24 (10 point) (Page 310)
+--Validate the turnaround time in slide 6-21
+   (20 points)
+
+Due: 10/08/2015
+
+
+Homework #6
+Page 391
+8.11
+8.12
+8.13
+Page 392
+8.20
+8.28
+Due: 10/15/2015
+
+Homework #7
+9.3 (page 449)
+9.8 (page 451)
+9.14 (page 452)
+9.18 (page 453)
+9.19 (page 453)
+
+Due: 10/20/2015
+
